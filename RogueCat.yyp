@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "4215a5bb-bd74-4d57-9c4d-4f39e2735ca6",
+            "Value": {
+                "id": "5e947144-aa4b-4329-b1de-65367a644b71",
+                "resourcePath": "views\\4215a5bb-bd74-4d57-9c4d-4f39e2735ca6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "433d69a3-22c4-4daf-a79a-42d34cd77129",
             "Value": {
                 "id": "81fe1a81-d6d6-48c3-91af-683846744df5",
