@@ -1,11 +1,11 @@
 /// @description Initialize our Room
 randomize();
 
-gridSize = 32;	// Size of your blocks and objects in game (32x32 tile set)
+gridSize = 32;		// Size of your blocks and objects in game (32x32 tile set)
 
 xSections = 4;		// How many rooms along the x axis
 ySections = 4;		// How many rooms along the x axis
-sections  = [];	// Declare our rooms array
+sections  = [];		// Declare our rooms array
 
 sectionTilesX = 10;	// How many tiles wide out sections are
 sectionTilesY = 8;	// How many tiles high out sections are
@@ -29,9 +29,16 @@ for ( _y = 0; _y < ySections; _y++){
 	}
 
 // Initializing out sections (loading sections as string into memory)
-
+InitalizaAllSections();
+InitializeAllChunks();
 
 // Create our level
-
+GenerateLevel();
 
 // Clean up memory (De-Initializ our sections)
+ds_list_destroy(sectionsLeftBottomRightList);
+ds_list_destroy(sectionsLeftTopRightList);
+ds_list_destroy(sectionsLeftRightList);
+ds_list_destroy(sectionsOffPathList);
+ds_list_destroy(sectionsEntranceList);
+ds_list_destroy(chunks);

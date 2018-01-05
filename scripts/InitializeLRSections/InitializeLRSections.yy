@@ -1,5 +1,5 @@
 {
-    "id": "e43dc267-8109-48e8-aa6d-3b001879c280",
+    "id": "33ae3c5d-a743-4bdd-b105-c55aeb279c89",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "InitializeLRSections",

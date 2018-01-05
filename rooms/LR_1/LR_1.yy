@@ -53,10 +53,53 @@
     "IsDnD": false,
     "layers": [
         {
+            "__type": "GMRTileLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Tiles_1",
+            "id": "6947d579-680a-418c-804a-df3b68b23ba9",
+            "depth": 0,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRTileLayer",
+            "prev_tileheight": 64,
+            "prev_tilewidth": 64,
+            "mvc": "1.0",
+            "tiles": {
+                "SerialiseData": null,
+                "SerialiseHeight": 8,
+                "SerialiseWidth": 10,
+                "TileSerialiseData": [
+                    162,143,0,0,0,0,0,0,142,163,
+                    143,2147483648,0,0,2147483648,2147483648,2147483648,2147483648,0,142,
+                    0,0,0,0,0,0,0,0,0,0,
+                    0,0,0,0,0,0,0,0,0,0,
+                    0,2147483648,0,0,0,0,0,0,0,0,
+                    0,0,2147483648,2147483648,2147483648,2147483648,2147483648,0,0,0,
+                    116,0,0,0,0,0,0,0,0,115,
+                    189,116,0,0,0,0,0,0,115,190
+                ]
+            },
+            "tilesetId": "22cfbd17-91f1-4948-bf50-2241efa3f817",
+            "userdefined_depth": false,
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Instances",
             "id": "2c235a61-8f75-4ee8-8ede-db4584eccaa5",
-            "depth": 0,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -126,7 +169,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4278787635 },
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -169,12 +212,12 @@
     },
     "roomSettings":     {
         "id": "1173c9ca-733b-4a5a-9b1d-802bd2826670",
-        "Height": 256,
+        "Height": 512,
         "inheritRoomSettings": false,
         "modelName": "GMRoomSettings",
         "persistent": false,
         "mvc": "1.0",
-        "Width": 320
+        "Width": 640
     },
     "mvc": "1.0",
     "views": [

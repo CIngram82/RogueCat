@@ -11,9 +11,15 @@ for (yy = 0; yy < yTiles; yy++)
 			if (inst != noone) inst = inst.object_index;
 			
 			switch (inst){
-				case noone:  levelData += "0";
+				case noone:			levelData += "0";
 					break;
-				case oBlock: levelData += "1";
+				case oBlock:		levelData += "1";
+					break;
+				case oLadder:		levelData += "L";
+					break;
+				case oRandomBlock:	levelData += "R";
+					break;
+				case oChunk:		levelData += "C";
 					break;
 			}
 	}
